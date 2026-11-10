@@ -9,14 +9,14 @@
 <p align="center">
   <img alt="Unity 6000.3.22f1" src="https://img.shields.io/badge/Unity-6000.3.22f1-222c37?logo=unity&logoColor=white">
   <img alt="Plataforma: Windows" src="https://img.shields.io/badge/plataforma-Windows-0078d4?logo=windows&logoColor=white">
-  <img alt="Estado: en desarrollo" src="https://img.shields.io/badge/estado-en%20desarrollo-f59e0b">
+  <img alt="Estado: en pausa" src="https://img.shields.io/badge/estado-en%20pausa-6b7280">
 </p>
 
 # Anime Zombie Battle
 
 Juego de acción 2D (*beat 'em up*) para PC en el que resistes oleadas interminables de zombis y te enfrentas a jefes en una arena. Es un proyecto independiente, hecho con Unity y pensado para publicarse en Steam.
 
-> **Estado: desarrollo temprano** (actualizado el 10 de octubre de 2026). Ya existen el menú principal y la base técnica del proyecto; el jugador, los enemigos y la arena de juego son lo que sigue. El detalle está en [Estado actual](#estado-actual).
+> **Estado: en pausa** (actualizado el 10 de noviembre de 2026). El desarrollo está detenido por ahora. Ya existen el menú principal y la base técnica del proyecto; el jugador, los enemigos y la arena de juego quedan pendientes. El detalle está en [Estado actual](#estado-actual).
 
 ## Contenido
 
@@ -82,7 +82,7 @@ Un jugador, una arena y oleadas sin fin. Las oleadas no terminan y, en el camino
 
 ## Estado actual
 
-*Última actualización: 10 de octubre de 2026.*
+*Última actualización: 10 de noviembre de 2026. El proyecto está en pausa: lo que figura como en curso queda detenido hasta retomarlo.*
 
 | Área | Estado | Detalle |
 |---|---|---|
@@ -90,7 +90,7 @@ Un jugador, una arena y oleadas sin fin. Las oleadas no terminan y, en el camino
 | Diseño | ✅ Hecho | Documento de diseño técnico v1.0.0: alcance, arquitectura y plan de trabajo |
 | Identidad visual | ✅ Hecho | Logo cuadrado, banner y logo transparente para usar dentro del juego |
 | Arte de interfaz | ✅ Base lista | Botones en cuatro estados (normal, resaltado, presionado y deshabilitado) e íconos de ajustes, atrás, pausa y sonido |
-| Menú principal | 🔨 En curso | Escena con fondo, logo y botones. **Jugar** carga la arena y **Salir** cierra el juego; Opciones, Ajustes y Música todavía no hacen nada |
+| Menú principal | ⏸️ En pausa | Escena con fondo, logo y botones. **Jugar** carga la arena y **Salir** cierra el juego; Opciones, Ajustes y Música todavía no hacen nada |
 | Arena | ⏳ Pendiente | La escena `Arena01` existe, pero solo tiene la cámara |
 | Jugador | ⏳ Pendiente | Movimiento, ataque y detección de golpes |
 | Enemigos y jefe | ⏳ Pendiente | Zombis, oleadas con *pooling* y jefe intermedio |
@@ -106,7 +106,7 @@ Un jugador, una arena y oleadas sin fin. Las oleadas no terminan y, en el camino
 
 ## Hoja de ruta
 
-1. [ ] **Menú y base:** pulir el menú principal y dejar el proyecto ordenado. *(en curso)*
+1. [ ] **Menú y base:** pulir el menú principal y dejar el proyecto ordenado. *(en pausa)*
 2. [ ] **Prototipo jugable:** jugador, ataque, primer zombi, cámara y vida con figuras simples, y la prueba de "¿se siente bien jugarlo?".
 3. [ ] **Sistemas de juego:** estados y pausa, oleadas con *object pooling*, tipos de zombi, jefe, puntaje y guardado.
 4. [ ] **Arte y animación:** jugador, zombis, jefe y arena, con animación por huesos.
@@ -175,7 +175,7 @@ ProjectSettings/  Configuración del proyecto
 ## Preguntas frecuentes
 
 **¿Cuándo sale?**
-Todavía no hay fecha. El estado y la hoja de ruta se actualizan en este README.
+Todavía no hay fecha: el proyecto está en pausa. El estado y la hoja de ruta se actualizan en este README si se retoma.
 
 **¿Puedo jugarlo ya?**
 Aún no: por ahora solo existe el menú principal y no hay una versión jugable.
